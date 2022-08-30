@@ -1,0 +1,317 @@
+.slick-prev:before {
+  content: "←";
+  display: none;
+}
+
+.slick-next:before {
+  content: "→";
+  display: none;
+}
+
+.image {
+  width: 15rem;
+  height: 18rem;
+}
+
+.technologyTitle {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  font-family: "Montserrat";
+  color: #000043;
+}
+
+.tech_box {
+  width: 7rem !important;
+  height: 7rem;
+  text-align: center;
+  margin: 1.5rem;
+  margin-left: 2rem;
+  border-radius: 0.8rem;
+  background-color: aqua;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.techImgBox {
+  width: 6.85rem;
+  padding: 0px;
+  margin: 0px;
+  height: 5.2rem;
+  border-radius: 0.8rem;
+  border: 1.5px solid black;
+  background-color: #fff;
+}
+
+.techImg {
+  width: 75%;
+  margin: auto;
+}
+
+.techText {
+  height: 100%;
+}
+
+.nextArr, .prevArr {
+  width: 5rem;
+  height: 5rem;
+  margin: -0.5rem -0.5rem;
+  display: none;
+}
+
+#leftBtnRemove, #rightBtnRemove {
+  display: none;
+}
+
+.slick-dots li {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .carousal_container {
+    width: 65rem;
+    height: 38rem;
+    margin: 3rem auto;
+  }
+}
+@media (max-width: 1200px) and (min-width: 1025px) {
+  .carousal_container {
+    width: 58rem;
+    height: 20rem;
+    margin: 3rem auto;
+  }
+  .tech_box {
+    width: 6rem !important;
+    height: 6rem;
+    text-align: center;
+    margin: 1rem;
+    margin-left: 2.5rem;
+  }
+  .techImgBox {
+    width: 5.85rem;
+    padding: 0px;
+    margin: 0px;
+    height: 4.2rem;
+  }
+}
+@media (max-width: 1024px) and (min-width: 955px) {
+  .carousal_container {
+    width: 58rem;
+    height: 20rem;
+    margin: 3rem auto;
+  }
+  .tech_box {
+    width: 5.5rem !important;
+    height: 5.5rem;
+    text-align: center;
+    margin: 1rem;
+    margin-left: 2rem;
+  }
+  .carousalSliderContainer {
+    padding-left: 3rem;
+  }
+  .techImgBox {
+    width: 5.35rem;
+    padding: 0px;
+    margin: 0px;
+    height: 3.5rem;
+  }
+}
+@media (max-width: 954px) and (min-width: 769px) {
+  .carousal_container {
+    width: 48rem;
+    height: 20rem;
+    margin: 3rem auto;
+  }
+  .tech_box {
+    width: 13rem !important;
+    height: 13rem;
+    text-align: center;
+    margin: 1rem;
+    margin-left: 7rem;
+  }
+  .techImgBox {
+    width: 12.85rem;
+    padding: 0px;
+    margin: 0px;
+    height: 9.5rem;
+  }
+  .nextArr, .prevArr {
+    width: 8rem;
+    height: 8rem;
+    margin: -0.5rem -0.5rem;
+    display: block;
+  }
+  #leftBtnRemove, #rightBtnRemove {
+    display: block;
+  }
+  #leftBtnRemove {
+    margin-left: -1rem !important;
+    margin-top: 10.5rem !important;
+    position: absolute;
+    z-index: 2;
+  }
+  #rightBtnRemove {
+    margin-left: 42rem !important;
+    margin-top: -20rem !important;
+    z-index: 2;
+    position: absolute;
+  }
+  .techText {
+    padding-top: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+  }
+}
+@media (max-width: 768px) and (min-width: 591px) {
+  .carousal_container {
+    width: 38rem;
+    height: 20rem;
+    margin: 2rem auto;
+  }
+  .technologyTitle {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .tech_box {
+    width: 10rem !important;
+    height: 10rem;
+    text-align: center;
+    margin: 1rem;
+    margin-left: 6rem;
+  }
+  .techImgBox {
+    width: 9.85rem;
+    padding: 0px;
+    margin: 0px;
+    height: 7rem;
+  }
+  .techText {
+    padding-top: 0.2rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+  }
+  .nextArr, .prevArr {
+    width: 7rem;
+    height: 7rem;
+    margin: -0.5rem -0.5rem;
+    display: block;
+  }
+  #leftBtnRemove, #rightBtnRemove {
+    display: block;
+  }
+  #leftBtnRemove {
+    margin-left: 0rem !important;
+    margin-top: 8rem !important;
+    z-index: 2;
+    position: absolute;
+  }
+  #rightBtnRemove {
+    z-index: 2;
+    margin-left: 32.5rem !important;
+    position: absolute;
+    margin-top: -16.5rem !important;
+  }
+}
+@media (max-width: 590px) and (min-width: 481px) {
+  .carousal_container {
+    width: 25rem;
+    height: 20rem;
+    margin: 3rem auto;
+  }
+  .technologyTitle {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .tech_box {
+    width: 6rem !important;
+    height: 6rem;
+    text-align: center;
+    margin: 1rem;
+    margin-left: 4rem;
+  }
+  .techImgBox {
+    width: 5.85rem;
+    padding: 0px;
+    margin: 0px;
+    height: 4rem;
+  }
+  .techText {
+    padding-top: 0.2rem;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .nextArr, .prevArr {
+    width: 5rem;
+    height: 5rem;
+    margin: -0.5rem -0.5rem;
+    display: block;
+  }
+  #leftBtnRemove, #rightBtnRemove {
+    display: block;
+  }
+  #leftBtnRemove {
+    margin-left: 0rem !important;
+    margin-top: 6rem !important;
+    z-index: 2;
+    position: absolute;
+  }
+  #rightBtnRemove {
+    z-index: 2;
+    margin-left: 21rem !important;
+    position: absolute;
+    margin-top: -10.5rem !important;
+  }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .carousal_container {
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem auto;
+  }
+  .technologyTitle {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .tech_box {
+    width: 5rem !important;
+    height: 5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    margin-left: 3rem;
+  }
+  .techImgBox {
+    width: 4.85rem;
+    border-radius: 0.5rem;
+    padding: 0px;
+    margin: 0px;
+    height: 3.5rem;
+  }
+  .techText {
+    padding-top: 0.2rem;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .nextArr, .prevArr {
+    width: 4rem;
+    height: 4rem;
+    margin: -0.5rem -0.5rem;
+    display: block;
+  }
+  #leftBtnRemove, #rightBtnRemove {
+    display: block;
+  }
+  #leftBtnRemove {
+    margin-left: 0rem !important;
+    margin-top: 5.5rem !important;
+    z-index: 2;
+    position: absolute;
+  }
+  #rightBtnRemove {
+    z-index: 2;
+    margin-left: 17rem !important;
+    position: absolute;
+    margin-top: -9rem !important;
+  }
+}

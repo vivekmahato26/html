@@ -1,0 +1,56 @@
+.skillsImgContainer {
+  width: 100%;
+  text-align: center;
+  margin: 5rem auto;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.4rem;
+}
+.skillsImgContainer .skillsImg {
+  width: 80%;
+}
+.skillsImgContainer .skillPerson {
+  width: 20%;
+}
+.skillsImgContainer .fullDevText {
+  color: #00e9b4;
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .skillsImgContainer {
+    width: 100%;
+    text-align: center;
+    margin: 8rem auto;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+  }
+  .skillsImgContainer .skillsImg {
+    width: 95%;
+  }
+  .skillsImgContainer .skillPerson {
+    width: 30%;
+  }
+  .skillsImgContainer .fullDevText {
+    color: #00e9b4;
+  }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .skillsImgContainer {
+    width: 100%;
+    text-align: center;
+    margin: 8rem auto;
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+  }
+  .skillsImgContainer .skillsImg {
+    width: 95%;
+  }
+  .skillsImgContainer .skillPerson {
+    width: 30%;
+  }
+  .skillsImgContainer .fullDevText {
+    color: #00e9b4;
+  }
+}

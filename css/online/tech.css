@@ -1,0 +1,31 @@
+.technologies-grid
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.technologies-grid div
+{
+    height: 15rem;
+    border-radius: 10px;
+    background-color: #00e9b4;
+}
+
+.technologies-grid p
+{
+    text-align: center;
+    padding-top: 0.8rem;
+    font-weight: 700;
+    font-style: 1.3rem;
+}
+
+.technologies-grid img
+{
+    height: 12rem;
+    padding: 2rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}

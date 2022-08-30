@@ -1,0 +1,605 @@
+.our_courses {
+  background-color: #000043;
+  padding-bottom: 5rem;
+  width: 100%;
+  height: fit-content;
+}
+
+.offline_card, .online_card
+{
+  text-decoration: none;
+  position: relative;
+}
+
+.ourCourses {
+  color: #00e9b4;
+  text-align: center;
+  padding-top: 2.5rem;
+  font-size: 3rem;
+  font-family: "Montserrat";
+  font-weight: 800;
+  padding-bottom: 2rem;
+}
+
+.techCertification {
+  border: 1px solid white;
+  border-radius: 9px;
+  width: fit-content;
+  padding: 0.93rem 2.06rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: white;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #000043;
+}
+
+.diplomaCertification {
+  background-color: white;
+  width: 90%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-bottom: 1.5rem;
+  margin-top: 4rem;
+  position: relative;
+  color: #000043;
+  cursor: pointer;
+}
+
+.diplomaCertificationTitle {
+  background-color: #00e9b4;
+  color: #000043;
+  width: fit-content;
+  text-align: center;
+  padding: 1.06rem 5.62rem;
+  border-radius: 0 0 50px 50px;
+  font-weight: 620;
+  font-size: 2rem;
+  margin: auto;
+}
+
+.fullStackDev {
+  font-weight: 690;
+  font-size: 2.5rem;
+  margin: 2.37rem 0 0 2.5rem;
+  color: #000043;
+}
+
+.buldingPro {
+  margin-left: 2.5rem;
+  font-size: 2.2rem;
+  font-weight: 450;
+  font-family: "montserrat";
+  color: #000043;
+}
+
+.list1 ul li {
+  font-weight: 510;
+  margin-top: 0.31rem;
+  margin-left: 2.5rem;
+  font-size: 2.2rem;
+  list-style: none;
+  color: #000043;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.list1 ul li img {
+  height: 2rem;
+}
+
+.optionDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30rem;
+}
+
+.offlineMode {
+  color: #00e9b4;
+  background-color: #000222;
+  font-size: 1.5rem;
+  width: fit-content;
+  text-align: center;
+  border-radius: 1.87rem;
+  font-weight: 510;
+  margin: auto;
+  cursor: pointer;
+  padding: 0.31rem 2.18rem;
+}
+
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3rem;
+  column-gap: 2rem;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+.course-1 {
+  padding-bottom: 20px;
+  background-color: white;
+  cursor: pointer;
+  padding: 1rem 1rem 1.5rem;
+  position: relative;
+  height: 24rem;
+}
+
+.course-2 {
+  padding-bottom: 20px;
+  background-color: white;
+  cursor: pointer;
+  padding: 1rem 1rem 1.5rem;
+  position: relative;
+  height: 23rem;
+}
+.courseHeading {
+  font-size: 1.9rem;
+}
+.courseData1, .courseData2, .courseData3, .courseData4, .courseData5, .courseData6 {
+  font-size: 1.3rem;
+  text-align: justify;
+  padding: 0.5rem 0;
+}
+
+.onlineMode {
+  color: #00e9b4;
+  background-color: rgb(10, 10, 90);
+  width: fit-content;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 9px;
+  padding: 0.62rem 3.75rem 0.62rem 3.75rem;
+  font-size: 1.57rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /* margin-top: 1.75rem; */
+  cursor: pointer;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.more {
+  background-color: #00e9b4;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 0.56rem 1.43rem;
+  border-radius: 5px;
+  color: #000043;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  align-items: center;
+
+}
+.arrowRight {
+  height: 1rem;
+  margin-left: 0.5rem;
+}
+
+.new-banner
+{
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  height: 8rem;
+  width: 8rem;
+  background-color: #000222;
+  color: #00e9b4;
+  z-index: 1;
+  clip-path: polygon(11% 56%, 20% 50%, 20% 50%, 18% 39%, 18% 39%, 31% 45%, 31% 45%, 37% 29%, 37% 29%, 49% 38%, 49% 38%, 62% 24%, 62% 24%, 71% 37%, 71% 37%, 85% 25%, 85% 27%, 83% 40%, 83% 40%, 93% 45%, 93% 45%, 80% 57%, 80% 57%, 84% 73%, 84% 73%, 67% 65%, 67% 65%, 60% 82%, 60% 82%, 50% 68%, 50% 68%, 38% 81%, 38% 81%, 32% 67%, 32% 67%, 20% 75%, 20% 75%, 21% 60%, 21% 60%);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: animate 2s infinite linear;
+}
+
+.new-banner div
+{
+  color: inherit;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 800;
+  transform: rotate(-20deg);
+}
+
+.watermark
+{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transform: rotate(-35deg);
+  font-weight: 800;
+  color: grey;
+  font-size: 3rem;
+}
+
+@keyframes animate {
+
+  0% {
+    background-color: #00e9b4;
+    color: #000043;
+  }
+  
+  50% {
+    background-color: #000043;
+    color: white;
+  }
+
+  100%
+  {
+    background-color: #00e9b4;
+    color: #000043;
+  }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1389px) and (min-width: 1264px) {
+  .course-2 
+  {
+    height: 25rem;
+  }
+  .course-1 
+  {
+    height: 27rem;
+  }
+}
+
+@media screen and (max-width: 1263px) and (min-width: 1201px) {
+  .courseData3 {
+    padding-bottom: 1rem !important;
+  }
+  .courseData6 {
+    padding-bottom: 0.5rem !important;
+  }
+  .course-2 
+  {
+    height: 25rem;
+  }
+  .course-1 
+  {
+    height: 30rem;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .ourCourses {
+    font-size: 2.4rem;
+  }
+  .techCertification {
+    font-size: 1.2rem;
+  }
+  .diplomaCertification {
+    margin-top: 3.5rem;
+  }
+  .diplomaCertificationTitle {
+    font-size: 2.5rem;
+  }
+  .fullStackDev {
+    font-size: 2.5rem;
+  }
+  .buldingPro {
+    font-size: 2.04rem;
+  }
+  .list1 ul li {
+    font-size: 2.04rem;
+  }
+  .optionDiv {
+    column-gap: 18rem;
+  }
+  .offlineMode {
+    font-size: 2.04rem;
+  }
+  .courseData3 {
+    padding-bottom: 2.7rem !important;
+  }
+  .courseData6 {
+    padding-bottom: 2rem !important;
+  }
+  .course-1 {
+    height: 29rem;
+  }
+  
+  .course-2 {
+    height: 25rem;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .ourCourses {
+    font-size: 2rem;
+  }
+  .course-1 {
+    height: 20rem;
+  }
+  
+  .course-2 {
+    height: 20rem;
+  }
+  .techCertification {
+    font-weight: 500;
+  }
+  .diplomaCertification {
+    margin-top: 3.5rem;
+  }
+  .diplomaCertificationTitle {
+    padding: 1.06rem 6.62rem;
+    font-size: 1.5rem;
+  }
+  .buldingPro {
+    font-size: 1.5rem;
+  }
+  .list1 ul li {
+    font-size: 1.4rem;
+  }
+  
+  .list1 ul li img{
+    height: 1.2rem;
+  }
+  .optionDiv {
+    column-gap: 18rem;
+  }
+  .offlineMode {
+    font-size: 1rem;
+  }
+  .courseData3 {
+    padding-bottom: 3.4rem !important;
+  }
+  .courseData6 {
+    padding-bottom: 2.5rem !important;
+  }
+  .courseHeading {
+    font-size: 1.4rem;
+  }
+  .courseData1, .courseData2, .courseData3, .courseData4, .courseData5, .courseData6 {
+    font-size: 0.8rem;
+    text-align: left;
+    padding: 0.5rem 0;
+  }
+  .watermark {
+    font-size: 1.5rem;
+  }
+  .fullStackDev {
+    font-size: 2rem;
+  }
+  
+  .more {
+    font-size: 1.2rem;
+    padding: 0.3rem 1rem;
+  }
+  .courses {
+    row-gap: 2rem;
+  }
+  .meet {
+    font-size: 2.2rem;
+    margin: 3rem auto 2rem;
+  }
+  .google_img {
+    width: 4rem !important;
+  }
+  .review_name {
+    font-size: 1.5rem !important;
+  }
+  .review {
+    font-size: 1rem !important;
+  }
+  .contact_us .contact_us_title {
+    font-size: 2.5rem !important;
+  }
+  .contact_us .contact_us_div {
+    font-size: 1rem !important;
+  }
+  .contact_us .contact_us_form_div .contact_us_form fieldset .contact_us_name {
+    font-size: 1rem !important;
+  }
+  .contact_us .contact_us_form_div .send_btn .send {
+    font-size: 1rem !important;
+    height: 2rem !important;
+    width: 6rem !important;
+  }
+  .footer {
+    padding: 1.5rem 0.5rem !important;
+    gap: 1rem !important;
+  }
+  .footer .footer_a {
+    gap: 1rem !important;
+  }
+  .footer .footer_b {
+    gap: 1rem !important;
+  }
+  .footer .footer_2 strong, .footer .footer_3 strong, .footer .footer_4 strong {
+    font-size: 1.2rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .footer .footer_4 strong {
+    margin-bottom: -0.6rem !important;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .ourCourses {
+    font-size: 3.5rem;
+  }
+  .techCertification {
+    font-size: 1.5rem;
+  }
+  .diplomaCertification {
+    margin-top: 2.6rem;
+  }
+  .diplomaCertificationTitle {
+    padding: 1.06rem 5.62rem;
+    font-size: 2rem;
+  }
+  .buldingPro {
+    font-size: 1.8rem;
+  }
+  .list1 ul li {
+    font-size: 1.8rem !important;
+}
+  .sideArrow {
+    height: 1.1rem;
+  }
+  .optionDiv {
+    margin-top: 2rem;
+    column-gap: 7rem;
+  }
+  .offlineMode {
+    font-size: 1.4rem;
+    padding: 0.3rem 1rem;
+}
+  .onlineMode {
+    font-size: 2rem;
+  }
+  .courses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .course-1, .course-2 {
+    padding: 2rem 2rem 3.5rem;
+  }
+  .course-1 {
+    height: 43rem;
+  }
+  .course-3 
+  {
+    height: 40rem;
+  }
+  
+  .course-2 {
+    height: 40rem;
+  }
+  .courseData1, .courseData2, .courseData3, .courseData4, .courseData5, .courseData6 {
+    font-size: 2rem;
+    padding: 0.5rem !important;
+  }
+  .courseData4 {
+    padding-bottom: 2.5rem !important;
+  }
+  .courseData6 {
+    padding-bottom: 3.4rem !important;
+  }
+  .watermark
+  {
+    font-size: 4rem;
+  }
+  .courses {
+    gap: 1rem !important;
+    width: 95% !important;
+    max-width: none;
+  }
+  .courseHeading b {
+    font-size: 2.2rem !important;
+    line-height: 0.5rem !important;
+  }
+  .courseHeading {
+    padding: 0.5rem;
+  }
+  .more {
+    font-size: 1.3rem !important;
+    padding: 0.3rem 1rem !important;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .ourCourses {
+    padding-top: 3rem;
+    font-size: 5.5rem;
+  }
+  .course-1 {
+    height: fit-content;
+  }
+  .course-2 
+  {
+    height: fit-content;
+  }
+  .techCertification {
+    font-size: 3.5rem;
+  }
+  .diplomaCertification {
+    margin-top: 4rem;
+  }
+  .diplomaCertificationTitle {
+    padding: 0.7rem 3.62rem;
+    font-size: 2.69rem;
+  }
+  .fullStackDev {
+    font-weight: 800;
+    font-size: 3rem;
+    margin: 2rem 0 0 2.4rem;
+  }
+  .buldingPro {
+    font-size: 1.96rem;
+    margin-left: 2.4rem;
+  }
+  .list1 ul li {
+    font-size: 1.96rem;
+  }
+  .sideArrow {
+    height: 1.5rem;
+  }
+  .optionDiv {
+    margin-top: 1rem;
+    justify-content: space-between;
+  }
+  .offlineMode {
+    font-size: 1.5rem;
+    padding: 0.31rem 1.58rem;
+  }
+  .courses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .courseHeading {
+    font-size: 3.2rem;
+  }
+  .courseData1, .courseData2, .courseData3, .courseData4, .courseData5, .courseData6 {
+    font-size: 2rem;
+  }
+  .courseData4 {
+    padding-bottom: 2.3rem !important;
+  }
+  .courseData6 {
+    padding-bottom: 3.1rem !important;
+  }
+  .onlineMode {
+    font-size: 2.2rem;
+    margin-top: 2.5rem;
+    position: static;
+  }
+  .more {
+    font-size: 2rem;
+  }
+  .more img {
+    height: 1.5rem;
+  }
+  .watermark
+  {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width:600px) and (min-width:320px){
+  .courses {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .courseHeading {
+    padding: 1rem;
+    text-align: center;
+  }
+  .course-1 {
+    height: 35rem;
+  }
+  .optionDiv {
+    column-gap: 0rem;
+}
+}

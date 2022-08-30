@@ -1,0 +1,108 @@
+.curriculumContainer {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.curriculumHeading {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 3rem;
+}
+
+.dataContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.left_data, .right_data {
+  padding: 2rem;
+}
+
+.left_data {
+  border-right: 2px solid #000222;
+}
+
+.semester {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.semester .semesterTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.semester .credits {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0.6rem;
+  float: right;
+}
+
+.intoductionToProgramming {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #00e9b4;
+  padding: 4rem 0 1rem 0;
+}
+
+.intoductionList ul {
+  list-style: none;
+}
+.intoductionList ul li {
+  font-size: 1.5rem;
+  padding: 0.3rem 0;
+}
+.intoductionList ul li img {
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .curriculumHeading {
+    font-size: 4rem;
+  }
+  .dataContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .left_data {
+    border: none;
+  }
+  .intoductionToProgramming {
+    font-size: 2rem;
+  }
+  .intoductionList ul li {
+    font-size: 2rem;
+  }
+  .semester .semesterTitle {
+    font-size: 3rem;
+  }
+  .semester .credits {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .curriculumHeading {
+    font-size: 5.5rem;
+  }
+  .dataContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .left_data {
+    border: none;
+  }
+  .intoductionToProgramming {
+    font-size: 2.5rem;
+  }
+  .intoductionList ul li {
+    font-size: 2.5rem;
+  }
+  .semester .semesterTitle {
+    font-size: 3.5rem;
+  }
+  .semester .credits {
+    font-size: 2rem;
+  }
+}

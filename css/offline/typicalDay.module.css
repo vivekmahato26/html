@@ -1,0 +1,136 @@
+.typicalHeading {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.typicalText {
+  width: 75%;
+  margin: 1rem auto;
+  text-align: justify;
+  font-size: 1.4rem;
+}
+
+.typicalContainer {
+  width: 75%;
+  margin: 3rem auto;
+  background-color: lightgray;
+  padding: 0 3rem 3rem;
+}
+
+.typicalTime {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #00e9b4;
+  width: fit-content;
+  margin: 0 auto 3rem auto;
+  padding: 0.5rem 4rem;
+  border-radius: 0rem 0rem 1.5rem 1.5rem;
+  background-color: #000;
+}
+.typicalTime span {
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  color: #00e9b4;
+}
+
+.typicalInnerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.typicalInnerContainer .typicalInnerHeading {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.typicalInnerContainer .typicalInnerTime {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.typicalInnerText {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.typicalUnderLine {
+  width: 78%;
+  height: 1.5px;
+  margin: 0 auto 2rem auto;
+  background-color: rgba(57, 56, 56, 0.755);
+}
+
+.guidedText {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .typicalHeading {
+    font-size: 4rem;
+    margin-top: 5rem;
+  }
+  .typicalText {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+  .typicalContainer {
+    width: 90%;
+    margin: 3rem auto;
+    padding: 0 3rem 3rem;
+  }
+  .typicalTime {
+    font-size: 2rem;
+  }
+  .typicalTime span {
+    font-size: 1.5rem;
+  }
+  .typicalInnerContainer .typicalInnerHeading {
+    font-size: 2rem;
+  }
+  .typicalInnerContainer .typicalInnerTime {
+    font-size: 1.3rem;
+  }
+  .typicalInnerText {
+    font-size: 1.5rem;
+  }
+  .guidedText {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .typicalHeading {
+    font-size: 5.5rem;
+    margin-top: 6rem;
+  }
+  .typicalText {
+    font-size: 2rem;
+    width: 90%;
+  }
+  .typicalContainer {
+    width: 90%;
+    margin: 3rem auto;
+    padding: 0 3rem 3rem;
+  }
+  .typicalTime {
+    font-size: 2.5rem;
+  }
+  .typicalTime span {
+    font-size: 2rem;
+  }
+  .typicalInnerContainer .typicalInnerHeading {
+    font-size: 2.5rem;
+  }
+  .typicalInnerContainer .typicalInnerTime {
+    font-size: 1.8rem;
+  }
+  .typicalInnerText {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .guidedText {
+    font-size: 1.8rem;
+  }
+}

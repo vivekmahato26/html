@@ -1,0 +1,27 @@
+.certificateImgContainer {
+  margin: auto;
+  width: 80%;
+}
+
+.certificateImg {
+  width: 100%;
+}
+
+.certificate {
+  text-align: center;
+  font-size: 3rem;
+  margin: 8rem auto 3rem;
+  font-weight: 800;
+  color: #000043;
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .certificate {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .certificate {
+    font-size: 5.5rem;
+  }
+}

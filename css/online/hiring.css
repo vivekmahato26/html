@@ -1,0 +1,62 @@
+
+
+.hiringIconGridDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.hiringIcon {
+  width: 11rem;
+  justify-self: center;
+}
+
+.hiringicon1 {
+  width: 11rem;
+  margin-left: 1.5rem;
+}
+
+.hiringScore {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  width: 18rem;
+  height: 2.5rem;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 0.2rem;
+  background-color: #00e9b4;
+}
+
+@media (max-width: 700px) and (min-width: 480px) {
+  .hiringIcon {
+    width: 6rem;
+    justify-self: center;
+  }
+  .hiringicon1 {
+    width: 6rem;
+    margin-left: 1.5rem;
+  }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .hiringIcon {
+    width: 3rem;
+    justify-self: center;
+  }
+  .hiringicon1 {
+    width: 5rem;
+    margin-left: 1.5rem;
+  }
+  .hiringHeading {
+    font-size: 1.5rem;
+  }
+  .hiringScore {
+    font-size: 1.2rem;
+    width: 15rem;
+    height: 2rem;
+  }
+  .hiringIconGridDiv {
+    height: 13rem;
+  }
+}

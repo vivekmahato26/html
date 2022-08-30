@@ -1,0 +1,127 @@
+.google_star{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem auto 2rem;
+  gap: 1rem;
+}
+.google_img{
+  width: 5rem;
+}
+.star_text{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+} 
+
+.carousel_div
+{
+  width: 70%;
+  margin: 0 auto 4rem;
+  padding: 1rem;
+  background-color: #efefef;
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.students_div
+{
+  width: 70%;
+  margin: 0 auto 4rem;
+  padding: 1rem;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+
+.carousel-indicators [data-bs-target]
+{
+  width: 1rem !important;
+  height: 1rem !important;
+  border-radius: 50%;
+  background-color: rgb(188, 188, 188) !important;
+}
+
+.carousel-control-next, .carousel-control-prev
+{
+  width: 20% !important;
+  top: -25% !important;
+}
+
+.carousel-control-next-icon {
+    background-image: none !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: none !important;
+}
+
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon
+{
+    filter: none !important;
+}
+
+.arrow
+{
+    background-color: #efefef;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.arrow img
+{
+  width: 4rem;
+    padding: 1rem;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon
+{
+    display: inline !important;
+}
+
+.name_date
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.review_name
+{
+  text-transform: capitalize;
+  font-size: 2rem;
+  text-align: center;
+  color: #000222;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.review
+{
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+button [data-bs-target="#carouselExampleDark"] {
+  border: none;
+  
+}
+
+@media (max-width:768px) and (min-width:425px){
+  .carousel_div {
+    grid-template-columns: 1fr !important;
+    gap :1rem;
+    width: 65%;
+  }
+  .arrow {
+    padding: 0.5rem;
+}
+}

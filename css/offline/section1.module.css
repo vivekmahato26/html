@@ -1,0 +1,352 @@
+a 
+{
+  text-decoration: none;
+  color: #000222 !important;
+}
+
+.section_1 {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  gap: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0 2rem 3rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .section_1 {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .section_1 {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section_1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 3rem 0 2rem 2rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .section_1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    padding: 3rem 0 2rem 2rem;
+  }
+}
+.section_1 .develop {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgb(0, 4, 66);
+  padding: 0 0 1rem 1.5rem;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .section_1 .develop {
+    font-size: 5rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .section_1 .develop {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section_1 .develop {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .section_1 .develop {
+    font-size: 3rem;
+  }
+}
+.section_1 .about_text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  width: 100%;
+  text-align: justify;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .section_1 .about_text {
+    font-size: 2rem;
+    line-height: 3rem;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .section_1 .about_text {
+    font-size: 2rem;
+    line-height: 3rem;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section_1 .about_text {
+    font-size: 1.1rem;
+    width: 100%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .section_1 .about_text {
+    font-size: 1.1rem;
+    width: 100%;
+  }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .section_1 .apply_btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-right: 7rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .section_1 .apply_btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section_1 .apply_btns {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .section_1 .apply_btns {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+}
+.section_1 .apply_btns .browse_button {
+  background-color: rgb(0, 235, 184);
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 10px;
+  margin-left: 2rem;
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .section_1 .apply_btns .browse_button {
+    margin-bottom: 4rem;
+    margin-left: 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .section_1 .apply_btns .browse_button {
+    margin-bottom: 4rem;
+    margin-left: 0;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+  }
+}
+.section_1 .apply_btns .browse_button img {
+  height: 1rem;
+  width: 1rem;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .section_1 .apply_btns .browse_button img {
+    height: 2rem;
+    width: 2rem;
+    padding-left: 1rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .section_1 .apply_btns .browse_button img {
+    height: 2rem;
+    width: 2rem;
+    padding-left: 1rem;
+  }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .section_1 .course_btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .section_1 .course_btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.section_1 .course_btns .course_button {
+  background-color: rgb(232, 232, 232);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  margin-left: 2rem;
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .section_1 .course_btns .course_button {
+    font-size: 2.5rem;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .section_1 .course_btns .course_button {
+    font-size: 2rem;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section_1 .course_btns .course_button {
+    font-size: 1.3rem;
+    border-radius: 5px;
+    padding: 0.5rem 0rem;
+    display: block;
+    margin: 1rem;
+    text-align: center;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .section_1 .course_btns .course_button {
+    font-size: 1.3rem;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+  }
+}
+.section_1 .course_btns .course_button img {
+  height: 1rem;
+  width: 1rem;
+}
+.section_1 .certifications {
+  text-align: center;
+  border: 1px solid rgb(0, 4, 66);
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: rgb(0, 4, 66);
+  background-color: white;
+  border-radius: 20px;
+  width: 80%;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .section_1 .certifications {
+    border-radius: 30px;
+    width: 95%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .section_1 .certifications {
+    border-radius: 30px;
+    width: 95%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section_1 .certifications {
+    border-radius: 20px;
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .section_1 .certifications {
+    border-radius: 20px;
+    margin-top: 1rem;
+  }
+}
+.section_1 .certifications .certif_title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .section_1 .certifications .certif_title {
+    font-size: 4.5rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .section_1 .certifications .certif_title {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section_1 .certifications .certif_title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .section_1 .certifications .certif_title {
+    font-size: 2rem;
+  }
+}
+.section_1 .certifications .certification_image_1 {
+  width: 60%;
+  margin: 1.5rem;
+}
+.section_1 .certifications .certification_image_2, .section_1 .certifications .certification_image_3 {
+  width: 90%;
+}
+.section_1 .certifications .certification_images {
+  display: grid;
+  grid-template-columns: 1.3fr 3fr;
+  text-align: left;
+  justify-content: left;
+  align-items: center;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .section_1 .certifications .certification_images {
+    font-size: 3.2rem;
+    font-weight: 750;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .section_1 .certifications .certification_images {
+    font-size: 2rem;
+    font-weight: 750;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section_1 .certifications .certification_images {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .section_1 .certifications .certification_images {
+    font-size: 1.4rem;
+  }
+}

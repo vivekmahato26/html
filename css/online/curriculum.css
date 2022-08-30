@@ -1,0 +1,205 @@
+.module
+{
+  font-size: 2.2rem;
+  font-weight: 700;
+  width: 45%;
+  margin: 2rem auto;
+  text-align: center;
+  color: #000222;
+}
+
+.accordion
+{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.methodised .accordion-button {
+    font-size: 1.3rem ;
+    font-weight: bold;
+    padding: 2rem;
+    box-shadow: none !important;
+    background-color: #efefef !important;
+    border-radius: 20px 20px 0 0 !important;
+    border: none !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .methodised .accordion-button
+    {
+        padding: 3rem;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .methodised .accordion-button
+    {
+        padding: 3rem;
+    }
+  }
+
+
+.accordion-button img, .accordion-button ion-icon
+{
+    width: 2rem;
+    margin-right: 2rem;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .accordion-button img
+    {
+        width: 3rem;
+        margin-right: 3rem;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .accordion-button img
+    {
+        width: 3rem;
+        margin-right: 3rem;
+    }
+  }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .accordion-flush .accordion-item .accordion-button
+    {
+        font-size: 2.5rem;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .accordion-flush .accordion-item .accordion-button
+    {
+        font-size: 2.5rem;
+    }
+  }
+
+
+.accordion-item
+{
+    margin: 2rem auto;
+    border-radius: 20px !important;
+    border: 0 !important;
+}
+
+.methodised ion-icon {
+    font-size: 3rem;
+}
+
+.methodised .icon {
+    margin: 0 1rem;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+    color: black !important;
+    background-color: none !important;
+}
+
+.accordion-button:not(.collapsed)::after
+{
+    background-image: none !important;
+    content: "-" !important;
+}
+
+.accordion-button::after
+{
+    background-image: none !important;
+    content: "+" !important;
+}
+
+.guided
+{
+  font-size: 1rem;
+  background-color: #000222;
+  color: white;
+
+}
+
+.methodised .accordion-body
+{
+    background-color: #efefef !important;
+    padding: 2rem ;
+    border-radius: 0 0 20px 20px !important;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.methodised .accordion-body div:nth-child(2)
+{
+  line-height: 3rem;
+}
+
+.within
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+ .within p
+{
+  /* height: 2rem; */
+  width: fit-content;
+  background-color: #000222;
+  border-radius: 5px;
+  color: #efefef;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.accordion-body ul
+{
+  list-style: none;
+}
+
+.accordion-body li
+{
+  display: grid;
+  grid-template-columns: 0.05fr 1fr;
+  align-items: baseline;
+}
+
+.accordion-body li ion-icon
+{
+  /* margin-right: 1rem; */
+  font-size: 1.1rem;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .methodised .accordion-body {
+      font-size: 2.5rem;
+      font-weight: 500;
+      padding: 4rem;
+    }
+    .within p
+    {
+      font-size: 1.7rem;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .methodised .accordion-body {
+      font-size: 2.2rem;
+      font-weight: 500;
+      padding: 4rem;
+    }
+    .within p
+    {
+      font-size: 1.7rem;
+    }
+  }
+
+.accordion-button:not(.collapsed)::after
+{
+    color: black !important;
+}
+
+
+
+
+
+
+
+
+

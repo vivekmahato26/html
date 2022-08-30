@@ -1,0 +1,77 @@
+.accordion
+{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.accordion .accordion-button
+{
+    background-color: #000222;
+    color: white;
+}
+
+.accordion-button
+{
+    background-color: #000222;
+}
+.accordion-button:focus 
+{
+    background-color: #000222;
+    color: white;
+}
+
+.accordion-body
+{
+    background-color: #000222;
+    color: white;
+}
+
+.accordion-button::after
+{
+    content: "+" !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none !important;
+    transform: rotate(-45deg) !important;
+    transform-origin: center !important;
+}
+
+.accordion-button:not(.collapsed)
+{
+    background-color: #000222 !important;
+    color: white !important;
+}
+
+.accordion-button:focus {
+    border-color: none !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+
+.frequently-asked
+{
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 3rem auto 0 auto;
+}
+
+.about-courses {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 8rem 0rem 2rem 0rem;
+}
+  
+@media screen and (max-width: 768px) and (min-width: 320px) {
+    .frequently-asked {
+      font-size: 6rem;
+      width: 100%;
+    }
+    .about-courses {
+      font-size: 4.5rem;
+    }
+}
+
