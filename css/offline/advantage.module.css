@@ -123,10 +123,11 @@
     width: 90%;
   }
   .cource_list_container .coding_school_advantage {
-    font-size: 5.5rem;
+    font-size: 1.2rem;
+    margin: 2rem auto 1rem;
   }
   .cource_list_container .coding_school_advantage_data {
-    font-size: 2rem;
+    font-size: 0.8rem;
     width: 100%;
   }
   .cource_list_container .grid_container {
@@ -134,19 +135,21 @@
     flex-direction: column;
   }
   .cource_list_container .grid_container .e_portofolio {
-    padding: 4rem;
+    padding: 2rem;
   }
   .cource_list_container .grid_container .e_portofolio .portfolio_img {
     margin-right: 2rem;
   }
   .cource_list_container .grid_container .e_portofolio .e_portofolio_heading {
-    font-size: 2.5rem;
+    font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
   }
   .cource_list_container .grid_container .e_portofolio .e_portofolio_data {
-    font-size: 2rem;
-    line-height: 2.8rem;
-    padding: 2rem 0 0;
+    font-size: 0.8rem;
+    padding: 1rem 0 0;
+  }
+  .cource_list_container .grid_container {
+    gap: 2rem;
   }
 }

@@ -123,5 +123,23 @@ button [data-bs-target="#carouselExampleDark"] {
   }
   .arrow {
     padding: 0.5rem;
+  }
 }
+@media (max-width:425px) and (min-width:320px){
+  .review_name {
+    font-size: 1.5rem;
+  }
+  .google_img {
+    width: 3rem;
+  }
+  .star_text {
+    font-size: 1.2rem;
+  }
+  .review {
+    font-size: 0.8rem;
+  }
+  .google_star {
+    margin: 5rem auto 2rem;
+    gap: 1rem;
+  }
 }

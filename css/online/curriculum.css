@@ -29,6 +29,10 @@
     {
         padding: 3rem;
     }
+    .module {
+      font-size: 1.2rem;
+      margin: 0rem auto;
+    }
   }
   @media (min-width: 481px) and (max-width: 768px) {
     .methodised .accordion-button
@@ -46,8 +50,12 @@
 @media (min-width: 320px) and (max-width: 480px) {
     .accordion-button img
     {
-        width: 3rem;
-        margin-right: 3rem;
+      width: 1.5rem;
+      margin-right: 2rem;
+    }
+    .accordion-flush .accordion-item .accordion-button {
+      font-size: 1rem !important;
+      padding: 0.5rem;
     }
   }
   @media (min-width: 481px) and (max-width: 768px) {
@@ -168,16 +176,27 @@
 
 
 @media (min-width: 320px) and (max-width: 480px) {
-    .methodised .accordion-body {
-      font-size: 2.5rem;
-      font-weight: 500;
-      padding: 4rem;
-    }
-    .within p
-    {
-      font-size: 1.7rem;
-    }
+  .methodised .accordion-body {
+    font-size: 0.8rem;
+    padding: 0.5rem;
   }
+  .within p {
+    padding: 0.1rem 0.4rem;
+    font-size: 0.5rem;
+  }
+  .within {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: left;
+    gap: 0.1rem;
+  }
+  .accordion-body li {
+    display: grid;
+    grid-template-columns: 0.05fr 1fr;
+    align-items: start;
+    line-height: 1.2rem;
+  }
+}
   @media (min-width: 481px) and (max-width: 768px) {
     .methodised .accordion-body {
       font-size: 2.2rem;

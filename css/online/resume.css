@@ -70,33 +70,40 @@ width: 100%;
   .projects
   {
     grid-template-columns: repeat(1,1fr);
-    margin-top: 4rem;
+    margin-top: 0rem;
   }
   .project1 p 
   {
-    font-size: 2rem !important;
+    font-size: 1rem !important;
   }
   
-    .resume-subtitle
-    {
-        font-size: 2.5rem;
-        font-weight: 700;
-    }
-    .project1 img 
-    {
-      height: 100%;
-    }
-    .project1
-    {
-      width: 85%;
-      height: 100%;
-    }
-    .project1 .modal
-    {
-      padding: 10rem !important;
-    }
-
+  .resume-subtitle
+  {
+    font-size: 0.8rem;
+    font-weight: 700;
   }
+  .project1 img 
+  {
+    height: 100%;
+  }
+  .project1
+  {
+    width: 85%;
+    height: 100%;
+  }
+  .project1 .modal
+  {
+    padding: 10rem !important;
+  }
+  .projects {
+    gap: 0rem;
+    padding-bottom: 0rem;
+  }
+  .project1 {
+    margin: 1rem auto;
+  }
+
+}
 
 
 

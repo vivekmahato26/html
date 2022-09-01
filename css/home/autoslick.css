@@ -187,7 +187,7 @@
     display: block;
   }
    .image {
-    height: 364px;
+    /* height: 364px; */
     width: 360px;
   }
    .img-data {
@@ -204,13 +204,26 @@
     width: 629px;
   }
    .student_box div {
-    width: 22rem;
-    height: 32.5rem;
+    width: 15rem;
+    /* height: 32.5rem; */
     display: flex;
     flex-direction: column;
   }
    #leftBtnRemove,  #rightBtnRemove {
     margin-top: -6rem;
+  }
+  .carousel_div {
+    grid-template-columns: 1fr;
+    width: 58%;
+  }
+  .arrow {
+    height: 1rem;
+    width: 1rem;
+  }
+  .arrow img {
+    width: 3rem;
+    margin-left: -1.5rem;
+    margin-top: -1.7rem;
   }
 }
  .slick-list {
@@ -231,8 +244,8 @@
 
 .meet
 {
-  font-size: 3rem;
-  margin: 5rem auto 2rem;
+  font-size: 2rem;
+  margin: 3rem auto 2rem;
   text-align: center;
   font-weight: 800;
 }

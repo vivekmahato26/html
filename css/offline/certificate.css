@@ -22,6 +22,7 @@
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .certificate {
-    font-size: 5.5rem;
+    font-size: 1.2rem;
+    margin: 2rem auto 0.5rem;
   }
 }

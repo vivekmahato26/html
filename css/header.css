@@ -157,7 +157,7 @@ body {
 
   }
   .header {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
   }
   .header .header-empty {
     display: none;
@@ -169,7 +169,7 @@ body {
     -moz-transform: translateX(0%) scale(1);
   }
   .header .header-nav .logo {
-    height: 8rem;
+    height: 4rem;
   }
   .header .header-nav .header-nav-1 {
     display: none;
@@ -177,20 +177,43 @@ body {
   .header .header-nav .header-bars {
     display: block;
     height: 4rem;
-    width: 5rem;
+    width: 12rem;
   }
   .header .header-nav .toggle-menu--clicked .header-bar:nth-child(1) {
     transform-origin: right;
-    transform: rotate(45deg) translateX(-15px);
+    transform: rotate(45deg) translateX(-7px);
   }
   .header .header-nav .toggle-menu--clicked .header-bar:nth-child(2) {
     transform: translateX(100%) scale(0);
   }
   .header .header-nav .toggle-menu--clicked .header-bar:nth-child(3) {
-    transform: rotate(-45deg) translateX(-5px);
+    transform: rotate(-45deg) translateX(0px);
   }
   .header .header-empty-2 {
     display: none;
+  }
+  .header .header-nav .header-bars .header-bar {
+    right: 0rem;
+    width: 2rem;
+  }
+  .header .header-nav {
+    padding: 1rem 1rem;
+  }
+  .header .header-nav .header-bars .header-bar:nth-child(3) {
+    top: 2.5rem;
+  }
+  .header .header-nav .header-bars .header-bar:nth-child(2) {
+    top: 3rem;
+  }
+  .header .header-nav .header-bars .header-bar:nth-child(1) {
+    top: 3.5rem;
+  }
+  .header .header-nav .header-bars .header-bar {
+    height: 0.2rem;
+  }
+  .header .header-nav .header-side-bar a {
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {

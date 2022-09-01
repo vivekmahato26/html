@@ -14,9 +14,16 @@
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .methodised .method_1 {
-    font-size: 5.5rem;
+    font-size: 1.2rem;
     width: 90%;
-    padding-top: 6rem;
+    padding-top: 0rem;
+    margin: 0.5rem auto;
+  }
+  .methodised {
+    width: 100%;
+    margin: 0rem auto;
+    padding: 1rem;
+    padding-top: 0rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -76,8 +83,8 @@
     align-items: center;
     text-align: left;
     border-radius: 100px;
-    padding: 3rem;
-    gap: 3rem;
+    padding: 0rem;
+    gap: 0rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -97,7 +104,7 @@
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .methodised .method_2 .feature_1 .number {
-    font-size: 10rem;
+    font-size: 2rem;
     text-align: center;
   }
 }
@@ -115,9 +122,9 @@
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .methodised .method_2 .feature_1 .caption {
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    margin-top: -2rem;
+    /* margin-top: -2rem; */
     margin-left: 1rem;
     text-align: center;
   }
@@ -140,9 +147,9 @@
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .methodised .method_2 .feature_1 .image1 {
-    top: 0;
-    left: 15%;
-    width: 22rem;
+    top: 15%;
+    left: 23%;
+    width: 8rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -161,10 +168,10 @@
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .methodised .method_2 .feature_1 .image2 {
-    top: -10%;
+    top: 20%;
     left: 76%;
     position: absolute;
-    width: 26rem;
+    width: 8rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -204,8 +211,14 @@
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .methodised .method_2 .feature_1 .title {
-    font-size: 2.6rem;
-    padding-bottom: 2rem;
+    font-size: 1rem;
+    padding: 2rem 0rem 0rem 0rem;
+    text-align: center;
+  }
+  .methodised .method_2 .feature_3 .title {
+    font-size: 1rem;
+    padding: 2rem 0rem 0rem 3rem;
+    text-align: center;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -224,9 +237,12 @@
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .methodised .method_2 .feature_1 .text {
-    font-size: 2.2rem;
-    line-height: 2.5rem;
-    padding: 0;
+    font-size: 0.8rem;
+    padding: 1rem 0rem 2rem 2rem;
+  }
+  .methodised .method_2 .feature_3 .text {
+    font-size: 0.8rem;
+    padding: 0rem 0rem 2rem 3rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -408,9 +424,9 @@
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .methodised .apply_now {
-    font-size: 2.5rem;
+    font-size: 0.8rem;
     font-weight: 700;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -427,8 +443,7 @@
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .methodised .apply_now img {
-    height: 2rem;
-    width: 2rem;
+    height: 1rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {

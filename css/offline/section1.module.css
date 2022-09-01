@@ -18,7 +18,7 @@ a
   .section_1 {
     display: block;
     text-align: center;
-    padding: 2rem;
+    padding: 0rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -54,7 +54,7 @@ a
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .section_1 .develop {
-    font-size: 5rem;
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -82,11 +82,11 @@ a
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .section_1 .about_text {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1rem;
+    /* line-height: 3rem; */
     width: 95%;
     margin: 0 auto;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -116,7 +116,7 @@ a
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    padding-right: 7rem;
+    /* padding-right: 7rem; */
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -154,12 +154,12 @@ a
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .section_1 .apply_btns .browse_button {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
     margin-left: 0;
-    font-size: 2.5rem;
+    font-size: 0.8rem;
     font-weight: 800;
     border-radius: 5px;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 0.5rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -178,9 +178,8 @@ a
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .section_1 .apply_btns .browse_button img {
-    height: 2rem;
-    width: 2rem;
-    padding-left: 1rem;
+    height: 0.8rem;
+    width: 0.8rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -216,10 +215,10 @@ a
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .section_1 .course_btns .course_button {
-    font-size: 2.5rem;
+    font-size: 1rem;
     border-radius: 15px;
     padding: 0.5rem 1rem;
-    margin: 2rem;
+    margin: 1rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -293,7 +292,7 @@ a
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .section_1 .certifications .certif_title {
-    font-size: 4.5rem;
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -312,11 +311,11 @@ a
   }
 }
 .section_1 .certifications .certification_image_1 {
-  width: 60%;
-  margin: 1.5rem;
+  width: 50%;
+  margin: 1rem;
 }
 .section_1 .certifications .certification_image_2, .section_1 .certifications .certification_image_3 {
-  width: 90%;
+  width: 85%;
 }
 .section_1 .certifications .certification_images {
   display: grid;
@@ -330,7 +329,7 @@ a
 }
 @media (max-width: 480px) and (min-width: 320px) {
   .section_1 .certifications .certification_images {
-    font-size: 3.2rem;
+    font-size: 1rem;
     font-weight: 750;
   }
 }
